@@ -4,8 +4,13 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js"
   },
+  "keywords": [
+    "node",
+    "docker",
+    "dockerfile"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
