@@ -1,6 +1,6 @@
 node {
     agent {
-       dockerfile true
+       docker
     }
     def app
 
