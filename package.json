@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node main.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PoojaBahuguni/jenkins-test1/"
+  },
   "keywords": [
     "node",
     "docker",
