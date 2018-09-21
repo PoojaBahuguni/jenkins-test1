@@ -20,7 +20,7 @@ node {
          * For this example, we're using a Volkswagen-type approach ;-) */
 
         app.inside {
-            bat 'echo "Tests passed"'
+            sh 'echo "Tests passed"'
         }
     }
 
