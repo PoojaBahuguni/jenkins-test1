@@ -1,5 +1,7 @@
 node {
-    agent docker
+    agent {
+       dockerfile true
+    }
     def app
 
     stage('Clone repository') {
