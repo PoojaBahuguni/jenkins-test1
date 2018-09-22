@@ -2,6 +2,9 @@ node {
   
     def app
 
+    nodejs(nodeJSInstallationName: 'node-4.6.0', configId: null) {
+      sh 'bower -v'
+    }
     stage('Clone repository') {
         /* Let's make sure we have the repository cloned to our workspace */
 
